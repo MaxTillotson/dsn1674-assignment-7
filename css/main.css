@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.masthead {
+  background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-background.png");
+  background-size: 75px auto, 75px auto, 100px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background position: left center, right center, left top;
+  text-align: center;
+  font-size: 3em;
+  color: #512200;
+}
+
+h1 {
+  margin:0;
+}
+
+nav ol {
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  background-color: rgba(81, 34, 0, 0.5);
+}
